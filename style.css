@@ -5,7 +5,7 @@
 }
 
 .todo-list {
-  width: 250px;
+  width: 350px;
   margin-left: 20px;
   padding-bottom: 10px;
   display: flex;
@@ -74,10 +74,10 @@
   width: auto;
   height: 40px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   border: solid;
   border-color: silver;
-  margin-top: 50px;
+  margin-top: 20px;
   font-size: 12px;
   font-weight: bold;
 }
