@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+    <link rel="stylesheet" href="0617-todo.css" />
+  </head>
+  <body>
+    <div class="todo-list">
+      <div class="todo-list-head">
+        <h5>My ToDo List</h5>
+        <div class="todo-list-numbers">0/6</div>
+      </div>
+
+      <div class="todo-list-body">
+      
+        <div class="body-row">
+          <input class="body-check-box" type="checkbox" />
+          <p id="title">My todo list #1</p>
+          <button class="btn-edit">edit</button>
+          <button class="btn-delete" onclick="delText();">del</button>
+        </div>
+        
+        <div class="body">
+          <input id="input" class="input" placeholder="What is next?" />
+          <button class="btn" onclick="addTask();">Add task</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="0617-todo.js"></script>
+  </body>
+</html>
+
+
